@@ -82,6 +82,27 @@ The project uses Django admin UI customization via `django-jazzmin`.
    http://127.0.0.1:8000/
    ```
 
+## Admin Login
+
+To access the Django admin dashboard locally:
+
+1. Start the server:
+
+   ```bash
+   python manage.py runserver
+   ```
+
+2. Open:
+
+   ```text
+   http://127.0.0.1:8000/admin/
+   ```
+
+3. Sign in with:
+
+   - Username: `admin`
+   - Password: `admin123`
+
 ## Notes
 
 - The project is configured for SQLite by default via `db.sqlite3`.
